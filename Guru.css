@@ -55,9 +55,9 @@ body {
     display: none;
 }
 
-#searchForm {
-    margin-left: 40rem;
+.hidden {
     display: none;
+    margin-left: 40rem;
 }
 
 a {
@@ -83,6 +83,7 @@ a {
 
 .icons {
     width: 3rem;
+    cursor: pointer;
     /* height: 2rem; */
 }
 
