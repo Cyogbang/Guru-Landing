@@ -227,3 +227,172 @@ a {
     border-bottom-style: none;
     margin-top: -1.5rem;
 }
+
+@media screen and (max-width: 768px){
+    body {
+        font-size: 7px;
+    }
+
+    .Container {
+        background-size: 10rem;
+    }
+    
+    .navs {
+        width: 1rem;
+    }
+    
+    #menu_icon1, #menu_icon2 {
+        width: 0.5rem;
+        height: 0.5rem;
+        margin-left: 0.4rem;
+    }
+
+    #logo {
+        width: 2rem;
+        height: 2rem;
+    }
+    
+    .icons {
+        width: 1rem;
+    }
+    
+    .PG_Desc {
+        margin-top: 10rem;
+        gap: 2rem;
+    }
+
+    .demo {
+        width: 5rem;
+        font-size: 5px;
+        padding: 0.3rem;
+    }
+
+    .left_side {
+        padding-left: 0.5rem;
+    }
+    
+    .right_side {
+        padding-left: 2rem;
+    }
+    
+    #watermark {
+        font-size: 8rem;
+    }
+    
+    .Prod_ideas {
+        margin-left: 7rem;
+    }
+    
+    #idea_details {
+        font-size: 6px;
+    }
+    
+    .progress {
+        width: 3rem;
+        height: 3rem;
+        font-size: 8px;
+        padding: 0.5rem;
+    }
+    
+    .PG_base {
+        gap: 1.5rem;
+    }
+    
+    .tools {
+        font-size: 0.5rem;
+        width: 8rem;
+        height: 4rem;
+    }
+}
+
+@media screen and (max-width: 425px){
+    
+    .Container {
+        background-size: 10rem;
+        height: 30rem;
+    }
+
+    .navigations {
+        gap: 0.8rem;
+    }
+
+    .icons {
+        width: 0.8rem;
+    }
+    
+    .PG_Desc {
+        margin-top: 6rem;
+        gap: 1rem;
+    }
+
+    .demo {
+        width: 5rem;
+        font-size: 5px;
+        padding: 0.3rem;
+    }
+    
+    .left_side {
+        padding-left: 0.5rem;
+    }
+
+    .right_side {
+        margin-top: -3rem;
+        padding-left: 1rem;
+    }
+    
+    #watermark {
+        font-size: 5rem;
+    }
+    
+    .Prod_ideas {
+        margin-left: 2rem;
+        width: 5rem;
+    }
+    
+    #idea_details {
+        font-size: 5px;
+    }
+    
+    .progress {
+        width: 2rem;
+        height: 2rem;
+        font-size: 5px;
+        padding: 0.5rem;
+        margin-top: 2rem;
+    }
+    
+    .PG_base {
+        gap: 1rem;
+        margin-top: 7rem;
+    }
+    
+    .tools {
+        font-size: 5px;
+        width: 5rem;
+        height: 2rem;
+        padding: 0.4rem;
+    }
+
+    .user {
+        width: 0.6rem;
+        border: 1px solid white;
+        border-radius: 50%;
+        margin-left: -4px;
+    }
+
+    .demo {
+        width: 4rem;
+        font-size: 3px;
+        margin-top: 0.5rem;
+        border: 1px solid white;
+    }
+
+    #play {
+        width: 1rem;
+        margin-top: -0.2rem;
+    }
+
+    #logo {
+        margin: -0.5rem 0rem 0rem 0rem;
+    }
+}
