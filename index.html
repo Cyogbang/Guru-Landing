@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GURU Consultants</title>
+    <link rel="stylesheet" href="./Guru.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,700;1,9..144,700&family=League+Spartan:wght@700&family=
+    Montserrat:ital,wght@0,700;1,700&family=Open+Sans:ital@0;1&family=Outfit:wght@400;600;700&family=Protest+Revolution&family=Raleway:ital@0;1&family=Red+Hat+Text:ital,wght@0,700;1,700&family=Roboto:wght@400;700&family=Young+Serif&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="Container">
+        <header class="headings">
+            <div class="logo"><img src="./Images/Logo.png" alt="" id="logo"></div>
+            <nav>
+                <ul class="navigations">
+                    <li class="navs" id="navs1" onmousemove="highlight()"><a href="http://" target="_blank">Home</a></li>
+                    <li class="navs" id="navs2" onmousemove="highlight()"><a href="http://" target="_blank">About</a></li>
+                    <li class="navs" id="navs3" onmousemove="highlight()"><a href="http://" target="_blank">Services</a></li>
+                    <li class="navs" id="navs4" onmousemove="highlight()"><a href="http://" target="_blank">Data</a></li>
+                    <li class="navs" id="navs5" onmousemove="highlight()"><a href="http://" target="_blank">Clients</a></li>
+                </ul>
+            </nav>
+            <div class="menu">
+                <a href=""><img src="./Images/search.png" alt="search" class="icons"  id="menu_icon1" onclick="searchDisplay()"></a>
+                <a href=""><img src="./Images/bars.png" alt="menu" class="icons" id="menu_icon2" onclick="menuDown()"></a>
+            </div>
+        </header>
+        <div class="hidden_data">
+            <ul class="navigations about_nav">
+                <li class="navs about1">Home Page</li>
+                <li class="navs about2">More information</li>
+                <li class="navs about3">See more services rendered</li>
+                <li class="navs about4">Get more info</li>
+                <li class="navs about5">Check out our serviced Clients</li>
+            </ul>
+            <form action="" id="searchForm">
+            <input type="search" id="search">
+            <input type="submit" value="submit" onclick="search()">
+            </form>
+        </div>
+        <div class="PG_Desc">
+            <div class="left_side">
+                <h1 id="Desc">Everything you need to start and run your Business</h1>
+                <div class="demo">
+                    <a href="http://" target="_blank"><img src="./Images/Disc play.png" alt="play" id="play"></a>
+                    <p id="Demo_Desc">View Demos and Highlights</p>
+                </div>
+            </div>
+            <div class="right_side">
+                <h1 id="watermark">NEX</h1>
+                <div class="Prod_ideas">
+                    <h6 id="idea_top">The ideas that improve your products</h6>
+                    <p id="idea_details">Be among the first founders to experience the easiest way 
+                        to start up a business
+                    </p>
+                    <div class="users">
+                        <img src="./Images/image-daniel.jpg" alt="pics" class="user" id="user1">
+                        <img src="./Images/image-jeanette.jpg" alt="pics" class="user" id="user2">
+                        <img src="./Images/image-jonathan.jpg" alt="pics" class="user" id="user3">
+                        <img src="./Images/image-kira.jpg" alt="pics" class="user" id="user4">
+                        <img src="./Images/image-patrick.jpg" alt="pics" class="user" id="user5">
+                    </div>
+                </div>
+                <div class="progress">
+                <p>View Progress</p>
+                <a href="" target="_blank"><img src="./Images/arrow.png" alt="arrow" class="icons"></a>
+                </div>
+            </div>
+        </div>
+        <footer class="PG_base">
+            <div class="tools" id="tool_1">
+                <p>Project Management Tool Design</p>
+                <a href="http://" target="_blank"><img src="./Images/arrow.png" alt="arrow" class="icons" id="bIcon_1"></a>
+            </div>
+            <div class="tools" id="tool_2">
+                <p>The Leading Customer Data Platform</p>
+                <a href="http://" target="_blank"><img src="./Images/arrow.png" alt="arrow" class="icons" id="bIcon_2"></a>
+            </div>
+            <div class="tools" id="tool_3">
+                <p>Food Delivery Mobile App</p>
+                <a href="http://" target="_blank"><img src="./Images/arrow.png" alt="arrow" class="icons" id="bIcon_3"></a>
+            </div>
+            <div class="tools" id="tool_4">
+                <p>Business Management Dashboard</p>
+                <a href="http://" target="_blank"><img src="./Images/arrow.png" alt="arrow" class="icons" id="bIcon_4"></a>
+            </div>
+        </footer>
+    </div>
+    <script src="./Guru.js"></script>
+</body>
+</html>
