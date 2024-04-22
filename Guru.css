@@ -308,8 +308,9 @@ a {
 @media screen and (max-width: 425px){
     
     .Container {
-        background-size: 10rem;
-        height: 30rem;
+        width: 85%;
+        background-size: 14rem;
+        height: 40rem;
     }
 
     .navigations {
@@ -341,7 +342,7 @@ a {
     }
     
     #watermark {
-        font-size: 5rem;
+        font-size: 6rem;
     }
     
     .Prod_ideas {
@@ -350,7 +351,7 @@ a {
     }
     
     #idea_details {
-        font-size: 5px;
+        font-size: 6px;
     }
     
     .progress {
@@ -359,11 +360,12 @@ a {
         font-size: 5px;
         padding: 0.5rem;
         margin-top: 2rem;
+        margin-left: 4rem;
     }
     
     .PG_base {
         gap: 1rem;
-        margin-top: 7rem;
+        margin-top: 14rem;
     }
     
     .tools {
