@@ -1,60 +1,35 @@
-function highlight() {
-    const homes = document.getElementById("navs1");
-    const abouts = document.getElementById("navs2");
-    const services = document.getElementById("navs3");
-    const datas = document.getElementById("navs4");
-    const clients = document.getElementById("navs5");
+// function highlight() {
+//     const home = document.getElementsByClassName("about1");
+//     const about = document.getElementsByClassName("about2");
+//     const service = document.getElementsByClassName("about3");
+//     const data = document.getElementsByClassName("about4");
+//     const client = document.getElementsByClassName("about5");
 
+//     if (home.style.display = "none") {
+//         home.style.display = "block";
+//     } else if (about.style.display = ) {
+        
+//     }
+// }
 
-    const home = document.getElementsByClassName("about1");
-    const about = document.getElementsByClassName("about2");
-    const service = document.getElementsByClassName("about3");
-    const data = document.getElementsByClassName("about4");
-    const client = document.getElementsByClassName("about5");
+function highlight1() {
+    const home = document.getElementById ("about1");
 
-    Highlighted = yes;
-
-    if (homes == yes) {
-        home.display = "block"; 
-        about.display = "none";
-        service.display = "none";
-        data.display = "none";
-        client.display = "none";
-    } else if (abouts == yes) {
-        about.display = "block";
-        service.display = "none";
-        data.display = "none";
-        client.display = "none";
-        home.display = "none";
-    } else if (services == yes) {
-        service.display = "block";
-        about.display = "none";
-        data.display = "none";
-        client.display = "none";
-        home.display = "none";
-    } else if (datas == yes) {
-        data.display = "block";
-        service.display = "none";
-        about.display = "none";
-        client.display = "none";
-        home.display = "none";
-    } else if (clients == yes) {
-        client.display = "block";
-        data.display = "block";
-        service.display = "none";
-        about.display = "none";
-        home.display = "none";
+    if (home.style.display = "none") {
+        home.style.display = "block";
     } else {
-        data.display = "none";
-        service.display = "none";
-        about.display = "none";
-        client.display = "none";
-        home.display = "none";
+        home.style.display = "none";
     }
 }
 
 function searchDisplay() {
     const search = document.getElementById ("searchForm");
 
-    
+    if (search.style.display = "none") {
+        console.log("none");
+        search.style.display = 'block';
+    } else {
+        console.log("block");
+        search.style.display = 'none';
+    } 
 }
